@@ -1,0 +1,9 @@
+[submodule "WiringPi"]
+	path = WiringPi
+	url = https://github.com/WiringPi/WiringPi
+[submodule "FreenoveKit"]
+	path = FreenoveKit
+	url = https://github.com/freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi
+[submodule "opencv"]
+	path = opencv
+	url = https://github.com/opencv/opencv
