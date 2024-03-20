@@ -23,7 +23,7 @@ while(True):
     for (x, y, w, h) in faces:
         cv2.rectangle(frame_bgr, (x, y), (x+w, y+h), (0, 255, 0), 3)
     cv2.imshow('frame', frame_bgr)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(1) == ord('q'):
         break
   
 # After the loop release the cap object
